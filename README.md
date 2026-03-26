@@ -11,7 +11,9 @@ Understanding similarity between artworks is challenging due to variations in st
 
 Instead of traditional classification, this project uses **metric learning** to learn an embedding space where:
 - Similar artworks are close together  
-- Dissimilar artworks are far apart  
+- Dissimilar artworks are far apart
+
+This project demonstrates how domain-specific metric learning compares against large pretrained models (CLIP) for fine-grained artwork similarity.
 
 ---
 
@@ -83,6 +85,12 @@ Instead of traditional classification, this project uses **metric learning** to 
 ## 🎯 Key Insight
 
 > The embedding space clusters paintings based on visual similarity rather than strictly separating artists.
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates that metric learning can effectively capture visual similarity in artworks, while large pretrained models like CLIP provide stronger generalization. The comparison highlights trade-offs between domain-specific learning and large-scale pretraining.
 
 ---
 
